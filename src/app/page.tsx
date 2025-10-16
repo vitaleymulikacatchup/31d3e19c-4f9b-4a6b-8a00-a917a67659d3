@@ -1,4 +1,4 @@
-use client";
+"use client";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
@@ -26,7 +26,7 @@ export default function Page() {
       defaultTextAnimation="background-highlight"
       borderRadius="sharp"
     >
-      <div id="nav" data-section="nav">
+      <div id="nav" data-section="nav" className="scroll-mt-24">
         <NavbarLayoutFloatingOverlay
           navItems={[
             { name: "Home", id: "home" },
